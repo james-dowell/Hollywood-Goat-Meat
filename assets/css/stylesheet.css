@@ -396,7 +396,7 @@ header {
 	margin-top: 20px;
 }
 
-.add-to-cart {
+.add_to_cart_button {
 	-webkit-appearance: none;
 	float: right;
 	background-color: #58a133;
