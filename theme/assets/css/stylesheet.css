@@ -1,0 +1,586 @@
+* {
+	box-sizing: border-box;
+	-webkit-apperance: none;
+}
+
+::-webkit-input-placeholder {
+	color: #d7d1be;
+}
+
+::-moz-placeholder {
+	color: #d7d1be;
+}
+
+:-moz-placeholder {
+	color: #d7d1be;
+}
+
+:-ms-input-placeholder {
+	color: #d7d1be;
+}
+
+input, button {
+	margin: 0;
+}
+
+button:focus {
+	outline: none;
+}
+
+input:focus {
+	outline: none;
+	border: 3px solid #58a133 !important;
+}
+
+.circle {
+	border-radius: 50%;
+	background-color: #58a133;
+	padding: 20px;
+	float: left;
+	color: #eae7dc;
+}
+
+i {
+	margin-left: 15px;
+}
+
+body {
+	font-family: "adelle", sans-serif;
+	line-height: 1.5;
+	width: 100%;
+	background-color: #eae7dc;
+	font-size: 1em;
+}
+
+.wrapper {
+	width: 100%;
+}
+
+header {
+	background: url("../images/bg-wall.jpg");
+	background-size: 100%;
+	color: #d5cfb6;
+}
+
+.header-inner {
+	padding-top: 50px;
+}
+
+.header-inner h1 {
+	max-width: 800px;
+	text-align: center;
+	margin: 0px auto;
+}
+
+.top-menu {
+	background-color: #38302b;
+	max-height: 80px;
+	text-align: center;
+	overflow: hidden;
+}
+
+.top-menu ul {
+	position: relative;
+	margin: 0px auto;
+	display: inline-block;
+}
+
+.top-menu ul li {
+	float:left;
+}
+
+
+.top-menu ul li a {
+	padding: 30px 30px;
+	width: 120px;
+	display: inline-block;
+	color:#eae7dc;
+}
+
+.top-menu .store {
+	position: relative;
+}
+
+.store a {
+	color: #58a133;
+	background-color: #EAE7DC;
+	padding: 30px 40px;
+	display: inline-block;
+	position: absolute;
+	right: 0;
+}
+
+.logo {
+	width: 150px;
+	height: 80px;
+	background: url("../images/logo.png");
+	background-size: 60px;
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+
+
+/*dsadsad*/
+
+.right {
+	float:right;
+	margin-right: 20px;
+	text-align: right;
+}
+
+.right .diamond {
+	margin: 0px 20px;
+}
+
+.contact-left {
+	margin-left: 20px;
+}
+
+.contact-left .diamond {
+	margin: 0px 20px;
+}
+
+.contact ul li {
+	margin-bottom: 30px;
+}
+
+
+/*------- MAIN -------*/
+
+.middle-wrap {
+	padding: 50px 0px;
+}
+
+.home-middle {
+	max-width: 1200px;
+	width: 100%;
+	margin: 0px auto;
+}
+
+
+/*------- RECIPES -------*/
+
+.recipe-filter i {
+	margin: 0px;
+}
+
+.recipe-filter button {
+	-webkit-appearance: none;
+	padding: 16px 20px;
+	border: none;
+	background-color: #58a133;
+	color: #eae7dc;
+	font-size: 1em;
+	display: inline-block;
+	max-height: 47px;
+}
+
+.recipe-filter input[type=text] {
+	padding: 14px 20px;
+	float: left;
+	border: solid  #d7d1be 3px; 
+	border-right: none;
+	width: 250px;
+	display: inline-block;
+	margin-top: 0px;
+}
+
+.recipe-filter-window {
+	background-color: #f5f3ee;
+	display: block;
+	padding: 30px;
+	padding-bottom: 0px;
+	display: none;
+}
+
+.recipe-filter-window ul {
+
+}
+
+.recipe-filter-window ul li {
+	display: inline-block;
+	margin: 0px 30px 30px 0px;
+}
+
+.recipe-filter-window ul li a {
+	padding: 10px 20px;
+	width: 200px;
+	text-align: center;
+	display: inline-block;
+	background-color: #d7d1be;
+}
+
+.recipe-filter-window ul li:nth-child(5n) {
+	margin-right: 0px;
+}
+
+.recipe-filter-right {
+	float: right;
+}
+
+.recipes {
+	margin-top: 60px;
+	overflow: hidden;
+}
+
+.recipes i {
+	margin: 0;
+}
+
+.single-recipe li {
+	display: inline-block;
+	vertical-align: top;
+}
+
+.recipes ul li:first-child .recipe-image-main {
+	width: 35%;
+}
+
+.recipes ul li .recipe-image {
+	width: 100%;
+}
+
+.recipe-image {
+	overflow: hidden;
+}
+
+.recipe-image img {
+	width: 100%;
+	max-width: 400px;
+	max-height: 400px;
+	margin-top: -75px;
+	margin-bottom: -75px;
+}
+
+.recipe-image-main img {
+	width: 100%;
+	max-width: 400px;
+	max-height: 400px;
+}
+
+.recipes ul li:first-child {
+	width: 100%;
+}
+
+.recipes > ul > li:first-child {
+	padding-bottom: 50px;
+	margin-bottom: 50px;
+	border-bottom: solid #D7D1BE 3px;
+}
+
+.recipes ul li {
+	width: 30%;
+	display: inline-block;
+}
+
+.recipes ul li:first-child .recipe-info {
+	width: 64.6% !important;
+}
+
+.single-recipe li {
+	width: 100%;
+}
+
+.recipe-info {
+	width: 100% !important;
+}
+
+.recipes li:first-child .recipe-info h3 {
+	font-size: 3em;
+}
+
+.recipe-info {
+	padding: 30px;
+	background-color: #f5f3ee;
+}
+
+.recipes ul li:first-child .recipe-info {
+	padding: 0px;
+	background-color: transparent !important;
+}
+
+.recipe-info h3 {
+	font-size: 1.4em;
+	border-bottom: #58a133 solid 3px;
+}
+
+.recipe-attributes {
+	padding-top: 20px;
+}
+
+.recipe-attributes ul li span {
+	display: inline-block;
+	padding: 15px 0px 15px 15px;
+}
+
+.recipe-attributes ul li {
+	width: 45% !important;
+	display: inline-block;
+}
+
+.recipes li:first-child .recipe-attributes ul li {
+	width: 30% !important;
+}
+
+.recipe-margin {
+	margin-bottom: 30px;
+	margin-right: 4.6%;
+}
+
+.recipe-margin:first-child {
+	margin-right: 0;
+}
+
+.recipe-margin:nth-child(3n+1) {
+	margin-right: 0px;
+}
+
+/*------- PRODUCTS -------*/
+
+.status-banner {
+	background-color: #A1C487;
+	color: #eae7dc;
+	padding: 50px 0px;
+	text-align: center;
+}
+
+.products ul {
+	overflow: hidden;
+}
+
+.products ul li {
+	width: 30%;
+	float: left;
+	margin-right: 4.6%;
+	margin-bottom: 40px;
+}
+
+.products ul li:nth-child(3n) {
+	margin-right: 0;
+}
+
+.product-info {
+	padding: 30px;
+	background-color: #f5f3ee;
+}
+
+.product-info h4 {
+	font-size: 1.2em;
+}
+
+.product-images img {
+	width: 100%;
+	max-width: 360px;
+}
+
+.price {
+	float: right;
+	font-size: 1.2em;
+	font-weight: bold;
+}
+
+.product-recipes {
+	padding: 10px 20px;
+	border: 3px solid #58a133;
+	float: left;
+}
+
+.product-recipes:hover {
+	background-color: #A1C487;
+
+	transition: 0.3s;
+}
+
+.product-action {
+	overflow: hidden;
+	margin-top: 20px;
+}
+
+.add-to-cart {
+	-webkit-appearance: none;
+	float: right;
+	background-color: #58a133;
+	padding: 16px 20px;
+	font-size: 1em;
+	border: none;
+	color: #f5f3ee;
+}
+
+.product-desc {
+	height: 100px;
+}
+
+
+
+/*------- FOOTER -------*/
+footer {
+	background-color: #38302b;
+	color: #d5cfb6;
+	position: relative;
+	height: 200px;
+}
+
+.footer-inner {
+	padding: 20px;
+	max-width: 1000px;
+	margin: 0px auto;
+}
+
+.footer-column {
+	width: 33%;
+}
+
+.footer-column:nth-child(3) {
+	text-align: right;
+}
+
+footer ul li {
+	display: inline-block;
+}
+
+.footer-ul {
+	margin: 4px;
+}
+
+.footer-ul li {
+	display: block;
+}
+
+.footer-ul i {
+	margin: 0px !important;
+}
+
+.footer-diamond-margin {
+	margin-bottom: 3px;
+	margin-left: 1px;
+}
+
+.social-holder {
+	color: #38302b;
+	width: 230px;
+	position: absolute;
+	top:47;
+	left:50%;
+	margin-left: -114px;
+}
+
+.social-holder i {
+	font-size: 2em;
+	display: inline-block;
+}
+
+.social-holder ul li {
+	width: 100px;
+	height: 100px;
+	float: left;
+}
+
+.social-holder ul {
+	overflow: hidden;
+}
+
+.social-holder ul li {
+	margin-right: 20px;
+}
+
+.social-holder ul li:last-child {
+	margin: 0px;
+}
+
+.social-holder ul li a {
+	display: inline-block;
+	border-radius: 50%;
+}
+
+.social-holder ul li {
+
+}
+
+.twitter {
+	background-color: #00acee;
+	color: #EAE7DC;
+	padding: 33px;
+	-webkit-transition:0.3s;
+    -moz-transition:0.3s;
+    -ms-transition:0.3s;
+    -o-transition:0.3s;
+    transition:0.3s;
+}
+
+.facebook {
+	background-color: #3b5998;
+	color: #EAE7DC;
+	padding: 33px;
+	margin-left: 2px;
+	-webkit-transition:0.3s;
+    -moz-transition:0.3s;
+    -ms-transition:0.3s;
+    -o-transition:0.3s;
+    transition:0.3s;
+}
+
+.mail {
+	background-color: #58a133;
+	color: #EAE7DC;
+	padding: 33px;
+	-webkit-transition:0.3s;
+    -moz-transition:0.3s;
+    -ms-transition:0.3s;
+    -o-transition:0.3s;
+    transition:0.3s;
+}
+
+.twitter:hover {
+	background-color: #009fdc;
+	color: #fff;
+	-webkit-transition:0.3s;
+    -moz-transition:0.3s;
+    -ms-transition:0.3s;
+    -o-transition:0.3s;
+    transition:0.3s;
+}
+
+.facebook:hover {
+	background-color: #2e4b89;
+	color: #fff;
+	-webkit-transition:0.3s;
+    -moz-transition:0.3s;
+    -ms-transition:0.3s;
+    -o-transition:0.3s;
+    transition:0.3s;
+}
+
+.mail:hover {
+	background-color: #4b9326;
+	color: #fff;
+	-webkit-transition:0.3s;
+    -moz-transition:0.3s;
+    -ms-transition:0.3s;
+    -o-transition:0.3s;
+    transition:0.3s;
+}
+
+footer input[type=text] {
+	background-color: transparent;
+	border: 2px #58a133 solid;
+	padding: 8px;
+	width: 67%;
+	color: #ffffff;
+}
+
+footer input[type=submit] {
+	padding:10px;
+	border: none;
+	background-color: #58a133;
+	color: #ffffff;
+}
+
+footer input:focus {
+	outline: none;
+}
+
+.footer-padding {
+	height: 120px;
+	width: 100%;
+}
+
